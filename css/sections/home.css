@@ -1,0 +1,47 @@
+.banner{
+	text-align: center;
+	margin-top: 50px;
+	text-transform: uppercase;
+	margin-bottom: 75px;
+}
+
+.banner span{
+	border: 5px solid rgba(0, 0, 0, 0.7);
+	padding: 20px;
+
+}
+
+
+.blurb{
+	text-align: center;
+	margin: 50px 20px;
+}
+
+.gallery-info{
+	text-align: center;
+	margin: 50px 20px;
+}
+
+.portfolio{
+	text-align: center;
+	margin: 50px 20px;
+}
+
+.portfolio a{
+	text-decoration: none;
+	color: #000;
+}
+
+.portfolio a:hover{
+	text-decoration: underline;
+}
+
+
+.footer{
+   position:absolute;
+   right: 0;
+   bottom:0;
+   width: 100%;
+   padding: 20px;
+   text-align: center;
+}

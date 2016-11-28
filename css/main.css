@@ -1,0 +1,51 @@
+@import url(sections/gallery.css);
+@import url(sections/home.css);
+@import url(sections/about.css);
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
+
+nav{
+	display: block;
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav li{
+	float: left;
+	margin-right: 10px;
+}
+
+nav li a{
+	text-decoration: none;
+	color: #000;
+	transition: all 0.2s ease-in-out;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav li a:hover{
+	padding: 5px;
+	background: #000;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
